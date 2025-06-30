@@ -5,41 +5,25 @@
   <title>Contato - Agrotecnologia</title>
 </head>
 <body>
-  <header>
-    <h1>Fale Conosco</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Início</a></li>
-        <li><a href="produtos.html">Produtos</a></li>
-        <li><a href="cursos.html">Cursos</a></li>
-        <li><a href="promocao.html">Promoções</a></li>
-        <li><a href="contacto.html">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
+  <h1>Fale Conosco</h1>
 
-  <main>
-    <h2>Envie sua mensagem</h2>
-    <form action="https://formsubmit.co/dirosasd@gmail.com" method="POST">
-  <input type="hidden" name="_captcha" value="false">
-  <input type="hidden" name="_next" value="https://di-rosas.github.io/Agrotecnologia/sucesso.html">
+  <form action="https://formsubmit.co/dirosasd@gmail.com" method="POST">
+    <!-- Redireciona corretamente para seu site -->
+    <input type="hidden" name="_next" value="https://di-rosas.github.io/Agrotecnologia/sucesso.html">
+    <input type="hidden" name="_captcha" value="false">
 
-  <label for="nome">Nome:</label><br>
-  <input type="text" name="nome" required><br>
+    <label for="nome">Nome:</label><br>
+    <input type="text" id="nome" name="nome" required><br><br>
 
-  <label for="email">Email:</label><br>
-  <input type="email" name="email" required><br>
+    <label for="email">Email:</label><br>
+    <input type="email" id="email" name="email" required><br><br>
 
-  <label for="mensagem">Mensagem:</label><br>
-  <textarea name="mensagem" required></textarea><br>
+    <label for="mensagem">Mensagem:</label><br>
+    <textarea id="mensagem" name="mensagem" required></textarea><br><br>
 
-  <input type="submit" value="Enviar">
-</form>
+    <input type="submit" value="Enviar">
+  </form>
 
-  </main>
-
-  <footer>
-    <p>&copy; 2025 Agrotecnologia. Todos os direitos reservados.</p>
-  </footer>
+  <p>&copy; 2025 Agrotecnologia. Todos os direitos reservados.</p>
 </body>
 </html>
